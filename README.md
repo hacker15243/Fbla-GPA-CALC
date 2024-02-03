@@ -4,11 +4,11 @@
 
 **Acknowledgments:**
 
-**Website developers:** Aanya Rawal and Aadhya Goyal
+Website developers: Aanya Rawal and Aadhya Goyal
 
-**Software used to code:** Replit
+Software used to code: Replit
 
-**Software used to store and merge code:** GitHub
+Software used to store and merge code: GitHub
 
 **Contact Info:**
 
