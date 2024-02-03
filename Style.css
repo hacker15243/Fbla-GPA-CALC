@@ -289,8 +289,9 @@ body{
 
 .explanation{
   font-size: 30px; 
-  padding-right: 40px;
-  padding-left: 40px; 
+  padding-right: 90px;
+  padding-left: 90px; 
+  
 }
 .resources{
   text-align: left; 
@@ -304,6 +305,24 @@ body{
 
 .resources{
   font-size: 25px; 
-  text-align: center;
+  text-align: center; 
+}
+
+option{
+  font-size: 20px;
+}
+
+select{
+  font-size: 20px; 
+}
+
+textBox{
+  font-size: 20px;
+}
+
+#img{
+  width: 40%;
+  height: 50%;
+  border-radius: 20px;
   
 }
