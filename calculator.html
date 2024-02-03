@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+  <!--<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+  <nav>
+    <ul class = "navigation">
+        <li class = "navigate">
+          <a class = "pagesLabel"href = "index.html"> Home </a>
+        </li>
+      <li class = "navigate">
+        <a class = "pagesLabel"href = "calculator.html"> Calculator </a>
+      </li>
+        <li class = "navigate">
+          <a class = "pagesLabel" href = "Infopg.html"> More Information </a>
+        </li>
+        <li class = "navigate">
+          <a class = "pagesLabel" href = "resources.html">Resources For Help</a>
+        </li>
+    </ul>
+  </nav>
+</head>
+<body class = "mainPage">
+  <h1 id="heading">GPA CALCULATOR</h1>
+
+<table class = "Table" id="dynamic-table">
+    <thead>
+        <tr>
+            <th>Count</th>
+            <th>Subject</th>
+            <th>Grade</th>
+            <th>Course Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Rows will be dynamically added here -->
+    </tbody>
+</table>
+
+<p id ="details"> </p>
+
+<button class = "buttons" id = "calculateButton">Calculate</button>
+<button class = "buttons" onclick="resetTable()">Reset Table</button>
+<button class = "buttons" id = "addCourseButton">Add Course</button>
+
+
+  <div class = "chat_symbol">
+  <span class = "material-symbols-outlined" id = "chatButton">sms</span>
+  </div>
+
+</body>
+  <div class = "chatbot" id = "chatbot" style = "display: none;">
+    <header class = "chatTitle">
+    <h2 class = "chatbot-title">ChatBot</h2>
+    </header>
+    <ul class = "chatbox">
+      <li class = "chat_incoming" id = "startMessage" >    
+        <p>Hi there, <br> How can I help you today? </p>
+      </li>
+
+      <li class = "chat_outgoing">
+        <p id = "user_message"> </p>
+      </li>
+    </ul>
+    <div class = "chat-input">
+      <textarea placeholder = "Enter a message..." required id = "message"></textarea>
+      <div class = "send-btn">
+      <span class = "material-symbols-outlined" id = "sendButton">Send</span>
+      </div>
+    </div>
+  </div>
+</html> 
+
+<script src="script.js"></script>
